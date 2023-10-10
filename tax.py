@@ -15,7 +15,7 @@ def main():
     tax = constants.HST * subtotal
     total = subtotal + tax
 
-    # Display the total cost back to the user
+    # Display the total and the tax back to the user
     print("")
     print("The total is = ${:.2f}".format(total))
     print("The tax is = ${:.2f}".format(tax))
